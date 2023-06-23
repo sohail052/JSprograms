@@ -1,0 +1,12 @@
+Always rememebar that, we will not tend to apply any condition with [else] which comes in the last of if-else condtion.
+Because pattern already follows the conditons on first 2 cases and last else has to execute with something different than provided conditions:
+
+if (condition 1) {
+    do this thing;
+  }
+
+else if (condition 2) {
+   do that thing;
+  }
+
+else { do something different than condition 1 and 2 }    // no need to insert braces () or any condition in last "else" section..
